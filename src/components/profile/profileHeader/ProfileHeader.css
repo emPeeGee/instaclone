@@ -1,0 +1,17 @@
+.profile__header {
+    display: flex;
+}
+
+.profile__photo {
+    flex-grow: 1;
+}
+
+.profile__photo img {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile__information {
+    flex-grow: 3;
+}
