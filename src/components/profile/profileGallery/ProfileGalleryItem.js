@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-class ImageCard extends React.Component {
+class ProfileGalleryItem extends React.Component {
     render() {
         return(
-            <div className="image__card">
+            <div className="gallery__item">
                 <img
                     ref={this.imageRef}  
                     src={this.props.image.urls.regular} 
@@ -14,4 +14,4 @@ class ImageCard extends React.Component {
     }
 }
 
-export default ImageCard;
+export default ProfileGalleryItem;

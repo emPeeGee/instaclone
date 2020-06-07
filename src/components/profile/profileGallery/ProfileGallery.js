@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import ImageCard from './ImageCard';
-import './ImageList.css';
+import ProfileGalleryItem from './ProfileGalleryItem';
+import './ProfileGallery.css';
 
-class ImageList extends React.Component {
+class ProfileGallery extends React.Component {
 
     constructor(props) {
         super(props);
@@ -24,15 +24,15 @@ class ImageList extends React.Component {
 
     render() {
         const imgs = this.state.images.map(img => {
-            return <ImageCard key={img.id} image={img} />
+            return <ProfileGalleryItem key={img.id} image={img} />
         })
 
         return (
-           <div className="container__list">
-                <div className="image__list">{imgs}</div>
+           <div className="container__gallery">
+                <div className="gallery">{imgs}</div>
            </div>
         )
     }
 }
 
-export default ImageList;
+export default ProfileGallery;

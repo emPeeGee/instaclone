@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './header/SearchBar';
-import ImageList from './profile/ImageList';
+import Profile from './profile/Profile';
 
 class App extends React.Component {
 
@@ -8,8 +8,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Header  />
-                <ImageList />
+                <Header />
+                <Profile />
             </div>
         )
     }
