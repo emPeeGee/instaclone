@@ -4,14 +4,14 @@ import Icon from './Icon/Icon';
 import Information from './Information/Information';
 import Stories from './Stories/Stories';
 
-import "./Header.css";
+import "./Summary.css";
 
 
-class Header extends React.Component {
+class Summary extends React.Component {
     render() {
         return(
-            <div className="header">
-               <div className="header__dashboard">
+            <div className="summary">
+               <div className="summary__dashboard">
                    <Icon />
                    <Information />
                </div>
@@ -25,4 +25,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header;
+export default Summary;

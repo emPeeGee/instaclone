@@ -1,0 +1,20 @@
+
+.interactiveButtons {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 0;
+
+}
+
+.interactiveButtons__container {
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.interactiveButtons a {
+    flex-grow: 1;
+    justify-content: space-around;
+    line-height: 13px;
+}

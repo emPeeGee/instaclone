@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header/Header';
+import Summary from './Summary/Summary';
 import Gallery from './Gallery/Gallery';
 import './Profile.css';
 
@@ -8,9 +8,11 @@ class Profile extends React.Component {
 
     render() {
         return(
-            <main className="container">
-                <Header />
-                <Gallery />
+            <main className="profile">
+                <div className="profile__container">
+                    <Summary />
+                    <Gallery />
+                </div>
             </main>
         );
     }
