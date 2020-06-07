@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Story from './Story';
 
 import './Stories.css';
@@ -6,7 +6,7 @@ import './Stories.css';
 class Stories extends React.Component {
     render() {
         return(
-            <div className="profile__stories">
+            <div className="stories">
                 <Story src={"story.jpg"} title={"Inside EBS"}/>
                 <Story src={"party.jpg"} title={"Party"}/>
                 <Story src={"story.jpg"} title={"Events"}/>

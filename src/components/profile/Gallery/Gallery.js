@@ -23,14 +23,12 @@ class Gallery extends React.Component {
     }
 
     render() {
-        const imgs = this.state.images.map(img => {
+        const images = this.state.images.map(img => {
             return <GalleryItem key={img.id} image={img} />
         })
 
         return (
-           <div className="container__gallery">
-                <div className="gallery">{imgs}</div>
-           </div>
+            <div className="gallery">{images}</div>
         )
     }
 }

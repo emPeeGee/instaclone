@@ -1,10 +1,11 @@
 import React from 'react';
 
+import './GalleryItem.css';
 
 class GalleryItem extends React.Component {
     render() {
         return(
-            <div className="gallery__item">
+            <div className="gallery-item">
                 <img
                     ref={this.imageRef}  
                     src={this.props.image.urls.regular} 

@@ -1,0 +1,9 @@
+.icon {
+    flex-grow: 3;
+}
+
+.icon img {
+    width: 160px;
+    display: block;
+    margin: 0 auto;
+}

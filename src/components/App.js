@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header/SearchBar';
+import Header from './Header/Header';
 import Profile from './profile/Profile';
 import './App.css';
 

@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
+
+import './Information.css';
 
 class Information extends React.Component {
     render() {
         return(
-            <div className="profile__information">
+            <div className="information">
                 <h3>ebsintegrator <button>Follow</button> <button>.</button></h3>
 
                 <div>

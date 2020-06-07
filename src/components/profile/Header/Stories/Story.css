@@ -1,0 +1,22 @@
+.story {
+    width: 125px;
+    font-size: 14px;
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.story__border {
+    width: 82px;
+    height: 82px;
+    border: 1px solid #cdcdcd;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.story img {
+    width: 75px;
+    border-radius: 100%;
+}
