@@ -1,9 +1,9 @@
 import React from "react";
 import Story from './Story';
 
-import './ProfileStories.css';
+import './Stories.css';
 
-class ProfileStories extends React.Component {
+class Stories extends React.Component {
     render() {
         return(
             <div className="profile__stories">
@@ -16,4 +16,4 @@ class ProfileStories extends React.Component {
     }
 }
 
-export default ProfileStories;
+export default Stories;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class ProfileGalleryItem extends React.Component {
+class GalleryItem extends React.Component {
     render() {
         return(
             <div className="gallery__item">
@@ -14,4 +14,4 @@ class ProfileGalleryItem extends React.Component {
     }
 }
 
-export default ProfileGalleryItem;
+export default GalleryItem;

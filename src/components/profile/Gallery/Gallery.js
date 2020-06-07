@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import ProfileGalleryItem from './ProfileGalleryItem';
-import './ProfileGallery.css';
+import GalleryItem from './GalleryItem';
+import './Gallery.css';
 
-class ProfileGallery extends React.Component {
+class Gallery extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ class ProfileGallery extends React.Component {
 
     onSearchSubmit = async () => {
         const response = await axios.get('https://api.unsplash.com/photos', {
-            params: {page: 1, per_page: 20},
+            params: {page: 1, per_page: 21},
             headers: {
                 Authorization: 'Client-ID EqpguUI3vrKZAFR1P_kR60A755goVw2I0IKb_DkelUE'
             }
@@ -24,7 +24,7 @@ class ProfileGallery extends React.Component {
 
     render() {
         const imgs = this.state.images.map(img => {
-            return <ProfileGalleryItem key={img.id} image={img} />
+            return <GalleryItem key={img.id} image={img} />
         })
 
         return (
@@ -35,4 +35,4 @@ class ProfileGallery extends React.Component {
     }
 }
 
-export default ProfileGallery;
+export default Gallery;

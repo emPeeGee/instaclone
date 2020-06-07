@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfileHeader from './profileHeader/ProfileHeader';
-import ProfileGallery from './profileGallery/ProfileGallery';
+import Header from './Header/Header';
+import Gallery from './Gallery/Gallery';
 import './Profile.css';
 
 
@@ -9,8 +9,8 @@ class Profile extends React.Component {
     render() {
         return(
             <main className="container">
-                <ProfileHeader />
-                <ProfileGallery />
+                <Header />
+                <Gallery />
             </main>
         );
     }

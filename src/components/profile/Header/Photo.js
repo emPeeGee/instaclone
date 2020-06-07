@@ -1,7 +1,7 @@
 import React from "react";
-import './ProfileHeader.css';
+import './Header.css';
 
-class ProfilePhoto extends React.Component {
+class Photo extends React.Component {
     render() {
         return(
             <div className="profile__photo">
@@ -11,4 +11,4 @@ class ProfilePhoto extends React.Component {
     }
 }
 
-export default ProfilePhoto;
+export default Photo;
