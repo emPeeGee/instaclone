@@ -4,7 +4,7 @@ import React from 'react';
 class ImageCard extends React.Component {
     render() {
         return(
-            <div>
+            <div className="image__card">
                 <img
                     ref={this.imageRef}  
                     src={this.props.image.urls.regular} 
