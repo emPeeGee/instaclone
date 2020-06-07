@@ -9,8 +9,8 @@ class Stories extends React.Component {
             <div className="stories">
                 <Story src={"story.jpg"} title={"Inside EBS"}/>
                 <Story src={"party.jpg"} title={"Party"}/>
-                <Story src={"story.jpg"} title={"Events"}/>
-                <Story src={"party.jpg"} title={"EBS people"}/>
+                <Story src={"events.jpg"} title={"Events"}/>
+                <Story src={"ebs_people.jpg"} title={"EBS people"}/>
             </div>
         );
     }

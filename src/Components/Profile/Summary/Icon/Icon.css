@@ -2,8 +2,17 @@
     flex-grow: 3;
 }
 
+
+.icon__border {
+    width: 160px;
+    border-radius: 100%;
+    border: 1px solid #dbdbdb;
+    margin: 0px auto;
+}
+
 .icon img {
     width: 160px;
     display: block;
     margin: 0 auto;
+    border-radius: 100%;
 }

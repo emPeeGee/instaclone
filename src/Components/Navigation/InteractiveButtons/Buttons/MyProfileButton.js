@@ -7,8 +7,8 @@ class MyProfileButton extends React.Component {
         return (
             <a href="#" className="my-profile-button">
                 <img
-                    alt="eempeegee's profile picture"
-                    src="profile_logo.jpg" />
+                    alt="ebs integratos's profile picture"
+                    src="profile_icon.jpg" />
             </a>
         );
     }

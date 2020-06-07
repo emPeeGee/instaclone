@@ -1,0 +1,9 @@
+.stats span {
+    margin-right: 18px;
+    color: #262626;
+}
+
+.stats span b {
+    font-weight: 500;
+    color: #000000;
+}
