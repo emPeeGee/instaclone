@@ -2,6 +2,8 @@ import React from 'react';
 import axios from 'axios';
 
 import './PhotoDetail.css';
+import UserComment from "./RightPart/UserComment";
+import UserInfo from "./RightPart/UserInfo";
 
 class PhotoDetail extends React.Component {
 
@@ -53,30 +55,8 @@ class PhotoDetail extends React.Component {
                             {img}
                         </div>
                         <div className="right-part">
-
-                            <div className="user-info">
-                                <div className="user-info__icon">
-                                    <img src="profile_icon.jpg" />
-                                </div>
-                                <div className="user-info__caption">
-                                    <p className="user-info__caption--title">ebsintegrator</p>
-                                    <div className="user-info__caption--dot"></div>
-                                    <p className="user-info__caption--follow">Follow</p>
-                                </div>
-                            </div>
-
-                            <div className="user-comment">
-                                <span className="user-comment--title">ebsintegrator</span>
-                                <span>Greetings from</span>
-                                <span className="user-comment--hashtag">#ebsintegrator's</span>
-                                <span>new office!</span>
-                                <span className="user-comment--hashtag">#newoffice</span>
-                                <span className="user-comment--hashtag">#ebsoffice</span>
-                                <span className="user-comment--hashtag">#officelife</span>
-                                <span className="user-comment--hashtag">#officestyle</span>
-                                <span className="user-comment--hashtag">#EBSteam</span>
-                                <span className="user-comment--hashtag">#meetings</span>
-                            </div>
+                            <UserInfo />
+                            <UserComment />
                         </div>
                 </div>
             </div>
