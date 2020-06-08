@@ -8,10 +8,10 @@ class Stories extends React.Component {
     render() {
         return(
             <div className="stories">
-                <Story src={"story.jpg"} title={"Inside EBS"}/>
-                <Story src={"party.jpg"} title={"Party"}/>
-                <Story src={"events.jpg"} title={"Events"}/>
-                <Story src={"ebs_people.jpg"} title={"EBS people"}/>
+                <Story src={"story/story.jpg"} title={"Inside EBS"}/>
+                <Story src={"story/party.jpg"} title={"Party"}/>
+                <Story src={"story/events.jpg"} title={"Events"}/>
+                <Story src={"story/ebs_people.jpg"} title={"EBS people"}/>
             </div>
         );
     }
