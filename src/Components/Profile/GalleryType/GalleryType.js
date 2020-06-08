@@ -2,9 +2,7 @@ import React from 'react';
 
 import './GalleryType.css';
 
-
 class GalleryType extends React.Component {
-
     render() {
         return(
            <div className="gallery-type">
@@ -32,3 +30,4 @@ class GalleryType extends React.Component {
 }
 
 export default GalleryType;
+

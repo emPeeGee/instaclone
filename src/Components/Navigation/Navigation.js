@@ -1,7 +1,7 @@
 import React from 'react';
 
 import SearchBar from './SearchBar/SearchBar';
-import Title from "./Title/Title";
+import Title from './Title/Title';
 import InteractiveButtons from './InteractiveButtons/InteractiveButtons';
 
 import './Navigation.css';

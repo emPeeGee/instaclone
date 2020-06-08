@@ -1,4 +1,3 @@
-
 .interactiveButtons {
     flex-grow: 1;
     display: flex;
@@ -26,5 +25,4 @@
     .interactiveButtons__container {
         width: 180px;
     }
-
 }

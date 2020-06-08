@@ -35,8 +35,6 @@
     border-top: 1px solid #000000;
 }
 
-
-
 @media screen and (max-width: 768px){
     .gallery-type {
         height: 60px;
@@ -65,5 +63,4 @@
     .gallery-type__svg-active {
         fill: #0095f6;
     }
-
 }

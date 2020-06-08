@@ -1,7 +1,7 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 import './GalleryItem.css';
-import {Link} from "react-router-dom";
 
 class GalleryItem extends React.Component {
     render() {

@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+
 import GalleryItem from './GalleryItem';
+
 import './Gallery.css';
 
 class Gallery extends React.Component {

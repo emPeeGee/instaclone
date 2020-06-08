@@ -2,7 +2,6 @@
     height: 39px;
     padding: 16px;
     display: flex;
-
     border-bottom: 1px solid #dbdbdb;
     align-items: center;
 }
@@ -18,7 +17,6 @@
     justify-content: left;
     flex-wrap: wrap;
 }
-
 
 .user-info__caption p{
     margin: 0 5px;

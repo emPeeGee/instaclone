@@ -1,9 +1,10 @@
 import React from 'react';
 import axios from 'axios';
 
+import UserComment from './RightPart/UserComment';
+import UserInfo from './RightPart/UserInfo';
+
 import './PhotoDetail.css';
-import UserComment from "./RightPart/UserComment";
-import UserInfo from "./RightPart/UserInfo";
 
 class PhotoDetail extends React.Component {
 
@@ -51,13 +52,13 @@ class PhotoDetail extends React.Component {
         return (
             <div className="photo-detail" onClick={this.goBack}>
                 <div className="photo-detail__container" onClick={this.stayHere}>
-                        <div className="left-part" >
-                            {img}
-                        </div>
-                        <div className="right-part">
-                            <UserInfo />
-                            <UserComment />
-                        </div>
+                    <div className="left-part" >
+                        {img}
+                    </div>
+                    <div className="right-part">
+                        <UserInfo />
+                        <UserComment />
+                    </div>
                 </div>
             </div>
         );

@@ -1,9 +1,10 @@
 import React from 'react';
 
-import './Information.css';
 import Overview from "./Overview/Overview";
 import Stats from "./Stats/Stats";
 import Description from "./Description/Description";
+
+import './Information.css';
 
 class Information extends React.Component {
 

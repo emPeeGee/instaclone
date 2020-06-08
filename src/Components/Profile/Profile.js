@@ -1,9 +1,10 @@
 import React from 'react';
+
 import Summary from './Summary/Summary';
 import Gallery from './Gallery/Gallery';
-import './Profile.css';
 import GalleryType from "./GalleryType/GalleryType";
 
+import './Profile.css';
 
 class Profile extends React.Component {
 
