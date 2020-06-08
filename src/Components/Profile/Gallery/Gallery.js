@@ -8,10 +8,10 @@ class Gallery extends React.Component {
     constructor(props) {
         super(props);
         this.state = { images: [] };
-        this.onSearchSubmit();
+        this.getPhotos();
     }
 
-    onSearchSubmit = async () => {
+    getPhotos = async () => {
         const response = await axios.get('https://api.unsplash.com/photos', {
             params: {page: 1, per_page: 21},
             headers: {

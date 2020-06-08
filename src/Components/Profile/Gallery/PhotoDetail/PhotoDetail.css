@@ -1,0 +1,110 @@
+
+.photo-detail {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    overflow-y: hidden;
+}
+
+.photo-detail__container {
+    width: 815px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    cursor: initial;
+}
+
+.left-part {
+    background: #000000;
+    height: 100%;
+    flex-grow: 5;
+    flex-basis: 0;
+}
+
+.left-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.right-part {
+    flex-grow: 3;
+    flex-basis: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-part .user-info {
+    height: 39px;
+    padding: 16px;
+    display: flex;
+
+    border-bottom: 1px solid #dbdbdb;
+    align-items: center;
+}
+
+.right-part .user-info__icon img {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.right-part .user-info__caption {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+
+.right-part .user-info__caption p{
+    margin: 0 5px;
+}
+
+.right-part .user-info__caption p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.right-part .user-info__caption--dot {
+    width: 4px;
+    height: 4px;
+    background: black;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.right-part .user-info__caption--follow {
+    color: #0095f6;
+}
+
+.right-part .user-comment {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+.right-part .user-comment .user-comment--hashtag {
+    color: #00376b;
+}
+.right-part .user-comment span{
+    margin: 0 2px;
+    font-size: 14px;
+    color: #262626;
+}
+
+
+
+.right-part .user-comment--title {
+    font-weight: bold;
+}
+
+
+
+
