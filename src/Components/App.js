@@ -13,8 +13,8 @@ class App extends React.Component {
             <BrowserRouter>
                 <Navigation />
                 <Profile />
+
                 <Switch>
-                    <Route exact path='/' component={Profile} />
                     <Route path="/:id" component={PhotoDetail} />
                 </Switch>
             </BrowserRouter>

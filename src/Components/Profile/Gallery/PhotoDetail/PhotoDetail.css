@@ -90,21 +90,32 @@
     flex-wrap: wrap;
     padding: 16px;
 }
+
 .right-part .user-comment .user-comment--hashtag {
     color: #00376b;
 }
+
 .right-part .user-comment span{
     margin: 0 2px;
     font-size: 14px;
     color: #262626;
 }
 
-
-
 .right-part .user-comment--title {
     font-weight: bold;
 }
 
 
+@media screen and (max-width: 900px){
+    .photo-detail__container {
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+    }
+
+    .left-part {
+        height: 73%;
+    }
+}
 
 

@@ -14,6 +14,12 @@ class PhotoDetail extends React.Component {
 
         this.id = props.match.params.id;
         this.getPhoto();
+
+        document.body.style.overflow = "hidden"
+    }
+
+    componentWillUnmount() {
+        document.body.style.overflow = "initial"
     }
 
     getPhoto = async () => {
@@ -36,7 +42,6 @@ class PhotoDetail extends React.Component {
     }
 
     render() {
-
 
         let img = this.state.loaded === true ?
             <img src={this.state.image.urls.regular} className="left-part" alt="image"/> : <div></div>;
