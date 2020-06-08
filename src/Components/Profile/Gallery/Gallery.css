@@ -1,5 +1,14 @@
 .gallery{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+    width: 100%;
 }
 
+@media screen and (max-width: 550px){
+    .gallery{
+        gap: 5px;
+    }
+}
