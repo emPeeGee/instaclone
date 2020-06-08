@@ -18,3 +18,7 @@
     justify-content: space-around;
     line-height: 13px;
 }
+
+.interactiveButtons a:first-child {
+    padding-left: 20px;
+}

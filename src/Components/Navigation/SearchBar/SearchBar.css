@@ -20,3 +20,9 @@
     text-align: left;
     color: #000000;
 }
+
+@media screen and (max-width: 425px){
+    .searchBar {
+        display: none;
+    }
+}

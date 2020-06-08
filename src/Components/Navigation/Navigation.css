@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 62.5%;
+    max-width: 768px;
     height: inherit;
     margin: 0 auto;
 }
