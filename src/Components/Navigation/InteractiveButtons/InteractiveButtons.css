@@ -4,7 +4,6 @@
     display: flex;
     justify-content: flex-end;
     flex-basis: 0;
-
 }
 
 .interactiveButtons__container {
@@ -21,4 +20,11 @@
 
 .interactiveButtons a:first-child {
     padding-left: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .interactiveButtons__container {
+        width: 180px;
+    }
+
 }

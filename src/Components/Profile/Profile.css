@@ -4,12 +4,6 @@
 }
 
 .profile__container {
-    width: 62.5%;
+    max-width: 975px;
     margin: 0 auto;
-}
-
-@media (max-width: 735px) {
-    .container {
-        width: 62.5%;
-    }
 }

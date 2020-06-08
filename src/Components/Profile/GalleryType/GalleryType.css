@@ -28,6 +28,39 @@
     margin-left: 10px;
 }
 
+.gallery-type__container div svg {
+    width: 12px;
+}
+
 .gallery-type__container div:first-child {
     border-top: 1px solid #000000;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .gallery-type__container {
+        border: none;
+    }
+    .gallery-type__container div {
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .gallery-type__container div span {
+        display: none;
+    }
+
+    .gallery-type__container div svg {
+        width: 24px;
+    }
+
+    .gallery-type__container div:first-child {
+        border-top: none;
+    }
+
+    .gallery-type__svg-active {
+        fill: #0095f6;
+    }
+
 }

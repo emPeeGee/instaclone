@@ -42,3 +42,22 @@
     margin-left: 18px;
 
 }
+
+@media screen and (max-width: 768px){
+    .overview {
+        flex-wrap: wrap;
+    }
+
+    .overview p {
+        margin: 10px 0;
+    }
+
+    .overview__btn--follow {
+        order: 3;
+    }
+
+    .overview__btn--recommendation {
+        order: 4;
+    }
+
+}
