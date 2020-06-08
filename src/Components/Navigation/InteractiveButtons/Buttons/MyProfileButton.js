@@ -5,10 +5,10 @@ import './MyProfileButton.css';
 class MyProfileButton extends React.Component {
     render() {
         return (
-            <a href="#" className="my-profile-button">
+            <a href="# " className="my-profile-button">
                 <img
-                    alt="ebs integratos's profile picture"
-                    src="profile_icon.jpg" />
+                    src="profile_icon.jpg"
+                    alt="ebs integratos's" />
             </a>
         );
     }

@@ -3,7 +3,7 @@ import React from 'react';
 class ActivityButton extends React.Component {
     render() {
         return (
-            <a href="#">
+            <a href="# ">
                 <svg aria-label="Activity Feed" fill="#262626" height="22"
                      viewBox="0 0 48 48" width="22">
                     <path

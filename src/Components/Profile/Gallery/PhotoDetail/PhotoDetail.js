@@ -46,8 +46,9 @@ class PhotoDetail extends React.Component {
 
     render() {
 
-        let img = this.state.loaded === true ?
-            <img src={this.state.image.urls.regular} className="left-part" alt="image"/> : <div></div>;
+        let img = this.state.loaded
+            ? <img className="left-part" src={this.state.image.urls.regular} alt={this.state.image.alt_description} />
+            : <div></div>;
 
         return (
             <div className="photo-detail" onClick={this.goBack}>

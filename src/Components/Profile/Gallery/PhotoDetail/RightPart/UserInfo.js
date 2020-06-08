@@ -7,7 +7,7 @@ class UserInfo extends React.Component {
         return (
             <div className="user-info">
                 <div className="user-info__icon">
-                    <img src="profile_icon.jpg" />
+                    <img src="profile_icon.jpg" alt="profile icon" />
                 </div>
                 <div className="user-info__caption">
                     <p className="user-info__caption--title">ebsintegrator</p>

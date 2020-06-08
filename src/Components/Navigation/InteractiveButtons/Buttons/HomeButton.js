@@ -3,7 +3,7 @@ import React from 'react';
 class HomeButton extends React.Component {
     render() {
         return (
-            <a href="#">
+            <a href="# ">
                 <svg aria-label="Home" fill="#262626" height="22" viewBox="0 0 48 48"
                      width="22">
                     <path
