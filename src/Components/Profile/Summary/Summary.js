@@ -22,10 +22,17 @@ class Summary extends React.Component {
         };
     }
 
-    componentDidMount() {
-        window.addEventListener('resize', () => {
-            this.setState({windowWidth: document.body.clientWidth})
-        });
+    componentDidMount = () => {
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
+    }
+
+    componentWillUnmount = () => {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+    }
+
+    updateWindowDimensions = () => {
+        this.setState({ windowWidth: window.innerWidth});
     }
 
 
