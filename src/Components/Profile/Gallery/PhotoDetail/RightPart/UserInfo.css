@@ -1,0 +1,40 @@
+.user-info {
+    height: 39px;
+    padding: 16px;
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+    align-items: center;
+}
+
+.user-info__icon img {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.user-info__caption {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.user-info__caption p{
+    margin: 0 5px;
+}
+
+.user-info__caption p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-info__caption--dot {
+    width: 4px;
+    height: 4px;
+    background: black;
+    border-radius: 100%;
+    margin: 0 5px;
+}
+
+.user-info__caption--follow {
+    color: #0095f6;
+}

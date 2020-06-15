@@ -1,0 +1,21 @@
+.gallery-item {
+    position: relative;
+    flex: 1 0 250px;
+    color: #fff;
+    cursor: pointer;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+/* Make Width same as Height*/
+.gallery-item img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

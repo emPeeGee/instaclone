@@ -1,0 +1,9 @@
+.profile {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.profile__container {
+    max-width: 975px;
+    margin: 0 auto;
+}

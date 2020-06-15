@@ -1,0 +1,32 @@
+.icon {
+    flex-grow: 4;
+}
+
+.icon__border {
+    width: 150px;
+    border-radius: 100%;
+    border: 1px solid #dbdbdb;
+    margin: 0 auto;
+}
+
+.icon img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .icon {
+        height: 77px;
+        float: left;
+    }
+
+    .icon__border {
+        width: 77px;
+    }
+
+    .icon img {
+        width: 77px;
+    }
+}

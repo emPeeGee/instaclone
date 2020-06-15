@@ -1,0 +1,19 @@
+.user-comment {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.user-comment .user-comment--hashtag {
+    color: #00376b;
+}
+
+.user-comment span{
+    margin: 0 2px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.user-comment--title {
+    font-weight: bold;
+}
